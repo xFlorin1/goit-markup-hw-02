@@ -43,6 +43,7 @@ ul {
   line-height: normal;
   letter-spacing: 0.28px;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .nav-section a:hover {
@@ -56,6 +57,7 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  text-decoration: none;
 }
 
 .contacts-list a:hover {
@@ -82,6 +84,12 @@ ul {
   border: none;
   cursor: pointer;
 }
+
+.button-style :hover {
+  background-color: #188ce8;
+}
+
+
 
 .text-style {
   color: #fff;
