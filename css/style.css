@@ -257,3 +257,7 @@ ul {
   line-height: 30px;
   letter-spacing: 0.48px;
 }
+
+.portofolio.html {
+	display: none;
+}
