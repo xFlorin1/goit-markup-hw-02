@@ -30,12 +30,12 @@ ul {
   letter-spacing: 0.78px;
 }
 
-.nav-section a:focus,
-.nav-section a:hover {
-  color: #2196f3;
+
+.connect {
+  color: #2196F3;
 }
 
-.nav-section a {
+.nav-section {
   color: #212121;
   font-size: 14px;
   font-style: normal;
@@ -46,7 +46,11 @@ ul {
   text-decoration: none;
 }
 
-.nav-section a:hover {
+.connect {
+  color: #2196F3;
+}
+
+.nav-section:hover {
   color: #2196f3;
 }
 
@@ -60,7 +64,8 @@ ul {
   text-decoration: none;
 }
 
-.contacts-list a:hover {
+.contacts-list a:focus,
+.contacts-list a:hover{
   color: #2196f3;
 }
 
@@ -83,15 +88,6 @@ ul {
   background: #2196f3;
   border: none;
   cursor: pointer;
-}
-
-.button-style :hover {
-  background-color: #188ce8;
-}
-
-
-
-.text-style {
   color: #fff;
   text-align: center;
   font-size: 16px;
@@ -99,6 +95,10 @@ ul {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+}
+
+.button-style:hover{
+  background-color: #188ce8;
 }
 
 .what-we-do-section h3 {
@@ -215,8 +215,12 @@ ul {
   text-decoration: none;
 }
 
-.button-section li {
+
+.button-section {
   color: #212121;
+  cursor: pointer;
+  border: none;
+	color: #212121;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -224,14 +228,10 @@ ul {
   letter-spacing: 0.48px;
 }
 
-.button-section button {
-  color: #212121;
-  cursor: pointer;
-  border: none;
-}
-
-.button-section button:hover{
+.button-section:focus,
+.button-section:active{
   background-color: #2196F3;
+	color: #fff;
 }
 
 .ads-section {
